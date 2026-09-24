@@ -1,0 +1,145 @@
+{
+  "market": "crypto",
+  "trained_at": "2026-09-24T22:21:36",
+  "candidates": 10162,
+  "labeled": 9684,
+  "approved": false,
+  "threshold": 0.68,
+  "holdout_starts": "2026-08-06T11:00:00",
+  "walk_forward_table": [
+    {
+      "threshold": 0.5,
+      "trades": 572,
+      "wins": 248,
+      "losses": 308,
+      "timeouts": 16,
+      "win_rate": 0.446,
+      "wilson_lower": 0.4052,
+      "expectancy_r": -0.1549,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.52,
+      "trades": 522,
+      "wins": 228,
+      "losses": 279,
+      "timeouts": 15,
+      "win_rate": 0.4497,
+      "wilson_lower": 0.4069,
+      "expectancy_r": -0.1477,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.54,
+      "trades": 478,
+      "wins": 202,
+      "losses": 263,
+      "timeouts": 13,
+      "win_rate": 0.4344,
+      "wilson_lower": 0.3901,
+      "expectancy_r": -0.1776,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.56,
+      "trades": 436,
+      "wins": 180,
+      "losses": 242,
+      "timeouts": 14,
+      "win_rate": 0.4265,
+      "wilson_lower": 0.3802,
+      "expectancy_r": -0.1922,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.58,
+      "trades": 381,
+      "wins": 157,
+      "losses": 211,
+      "timeouts": 13,
+      "win_rate": 0.4266,
+      "wilson_lower": 0.3771,
+      "expectancy_r": -0.1917,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.6,
+      "trades": 336,
+      "wins": 141,
+      "losses": 183,
+      "timeouts": 12,
+      "win_rate": 0.4352,
+      "wilson_lower": 0.3823,
+      "expectancy_r": -0.175,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.62,
+      "trades": 289,
+      "wins": 118,
+      "losses": 160,
+      "timeouts": 11,
+      "win_rate": 0.4245,
+      "wilson_lower": 0.3678,
+      "expectancy_r": -0.1953,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.65,
+      "trades": 235,
+      "wins": 101,
+      "losses": 122,
+      "timeouts": 12,
+      "win_rate": 0.4529,
+      "wilson_lower": 0.3889,
+      "expectancy_r": -0.1394,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.68,
+      "trades": 185,
+      "wins": 88,
+      "losses": 90,
+      "timeouts": 7,
+      "win_rate": 0.4944,
+      "wilson_lower": 0.4218,
+      "expectancy_r": -0.0608,
+      "breakeven_win_rate": 0.525
+    },
+    {
+      "threshold": 0.7,
+      "trades": 163,
+      "wins": 74,
+      "losses": 83,
+      "timeouts": 6,
+      "win_rate": 0.4713,
+      "wilson_lower": 0.3949,
+      "expectancy_r": -0.1052,
+      "breakeven_win_rate": 0.525
+    }
+  ],
+  "holdout_baseline_rules_only": {
+    "trades": 444,
+    "wins": 216,
+    "losses": 203,
+    "timeouts": 25,
+    "win_rate": 0.5155,
+    "wilson_lower": 0.4677,
+    "expectancy_r": -0.0207,
+    "breakeven_win_rate": 0.525
+  },
+  "holdout_with_ml": {
+    "trades": 71,
+    "wins": 36,
+    "losses": 30,
+    "timeouts": 5,
+    "win_rate": 0.5455,
+    "wilson_lower": 0.4261,
+    "expectancy_r": 0.0345,
+    "breakeven_win_rate": 0.525
+  },
+  "live_samples_used": 0,
+  "live_report": {
+    "closed_signals": 0
+  }
+}
