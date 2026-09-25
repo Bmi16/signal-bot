@@ -298,7 +298,7 @@
     "tp2": 124.16499999999999,
     "tp3": 126.2725,
     "created_at": "2026-09-25T14:31:24",
-    "status": "open",
+    "status": "closed",
     "tp1_hit": true,
     "tp2_hit": false,
     "tp3_hit": false,
@@ -325,7 +325,8 @@
     },
     "ml_prob": 0.618992607952,
     "ml_mode": "shadow",
-    "sl_active": 119.95
+    "sl_active": 119.95,
+    "closed_by": "BE"
   },
   {
     "id": "BNBUSD-09251431",
