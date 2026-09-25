@@ -299,10 +299,10 @@
     "tp3": 126.2725,
     "created_at": "2026-09-25T14:31:24",
     "status": "open",
-    "tp1_hit": false,
+    "tp1_hit": true,
     "tp2_hit": false,
     "tp3_hit": false,
-    "logged": false,
+    "logged": true,
     "features": {
       "rsi_dir": 66.26984126984132,
       "atr_pct": 1.17573221757322,
@@ -324,7 +324,8 @@
       "is_buy": 1.0
     },
     "ml_prob": 0.618992607952,
-    "ml_mode": "shadow"
+    "ml_mode": "shadow",
+    "sl_active": 119.95
   },
   {
     "id": "BNBUSD-09251431",
