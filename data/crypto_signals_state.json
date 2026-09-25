@@ -218,11 +218,11 @@
     "tp2": 86107.40785714285,
     "tp3": 87113.17178571428,
     "created_at": "2026-09-24T22:24:34",
-    "status": "open",
-    "tp1_hit": false,
+    "status": "closed",
+    "tp1_hit": true,
     "tp2_hit": false,
     "tp3_hit": false,
-    "logged": false,
+    "logged": true,
     "features": {
       "rsi_dir": 48.10161104517204,
       "atr_pct": 0.7949132017952375,
@@ -244,7 +244,9 @@
       "is_buy": 1.0
     },
     "ml_prob": 0.5453676470933773,
-    "ml_mode": "shadow"
+    "ml_mode": "shadow",
+    "sl_active": 84095.88,
+    "closed_by": "BE"
   },
   {
     "id": "XRPUSD-09251431",
