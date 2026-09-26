@@ -459,7 +459,7 @@
     "tp2": 123.05142857142856,
     "tp3": 124.24714285714285,
     "created_at": "2026-09-26T13:41:16",
-    "status": "open",
+    "status": "closed",
     "tp1_hit": true,
     "tp2_hit": false,
     "tp3_hit": false,
@@ -486,6 +486,7 @@
     },
     "ml_prob": 0.3502508811703908,
     "ml_mode": "shadow",
-    "sl_active": 120.66
+    "sl_active": 120.66,
+    "closed_by": "BE"
   }
 ]
