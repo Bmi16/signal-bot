@@ -259,11 +259,11 @@
     "tp2": 1.6427857142857143,
     "tp3": 1.6777785714285716,
     "created_at": "2026-09-25T14:31:24",
-    "status": "open",
+    "status": "closed",
     "tp1_hit": false,
     "tp2_hit": false,
     "tp3_hit": false,
-    "logged": false,
+    "logged": true,
     "features": {
       "rsi_dir": 69.7975708502025,
       "atr_pct": 1.4730423330537006,
@@ -285,7 +285,8 @@
       "is_buy": 1.0
     },
     "ml_prob": 0.670315308339516,
-    "ml_mode": "shadow"
+    "ml_mode": "shadow",
+    "closed_by": "SL"
   },
   {
     "id": "SOLUSD-09251431",
