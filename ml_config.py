@@ -14,6 +14,6 @@ LIVE_SAMPLE_WEIGHT = 3.0   # real (live) outcomes count 3x more than historical 
 
 # False -> a model that FAILED validation only runs in "shadow" mode (logs its probability, blocks nothing).
 # True  -> if a model exists but failed validation, no signals are published at all.
-REQUIRE_APPROVED = False
+REQUIRE_APPROVED = True
 
 MIN_CLOSED_FOR_STATS = 30  # the win rate is only shown in messages after this many closed signals

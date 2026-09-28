@@ -33,10 +33,6 @@ jobs:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
         run: python train.py forex
 
-      - name: Train crypto model
-        env:
-          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
-        run: python train.py crypto
 
       - name: Commit models and metrics
         run: |
